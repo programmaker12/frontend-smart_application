@@ -70,7 +70,7 @@ img {
   border-radius: 5px;
 }
 .recipe-text {
-  max-width: 100%; /* Adjust based on your specific layout needs */
+  max-width: 100%; /* Adjust based on your specific layout needs */ 
   padding: 10px;
   box-sizing: border-box; /* Ensures padding is included in width calculation */
   word-wrap: break-word;
