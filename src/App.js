@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [activeTab, setActiveTab] = useState('image-generator');
+  const [activeTab, setActiveTab] = useState('image-generator'); 
 
   const handleTabChange = (tab) => {
     alert(tab)
