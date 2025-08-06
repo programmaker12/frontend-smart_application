@@ -5,7 +5,7 @@ function ImageGenerator() {
   const [imageUrls, setImageUrls] = useState([]);
   const generateImage = async () => {
     try {
-      const response = await fetch(`http://localhost:8080/generate-image`);
+      const response = await fetch(`http://localhost:8080/generate-images?prompt=${encodeURIComponent(prompt)}`);
       const urls =  await response.json(); 
       setImageUrls(urls);
     } catch (error) {
